@@ -1,0 +1,60 @@
+MMED 3002 - Multimedia Authoring - Week 2
+
+THINGS YOU SHOULD RESEARCH
+- NODE/NPM/HEROKU
+- DEV STACKS - alternatives/updates/what others are using
+- MONGO DB
+- WEBPACK/REACT
+- JavaScript ES6 with a transpiler like Babel
+
+COMMAND TERMINAL
+- PWD
+	- Will point to the folder you are at.
+
+- mkdir untitled
+	- Create a folder
+- cd untitled
+	- Point to folder
+
+- mkdir js css includes
+	- Create these folders
+
+- cd js; main.js
+	- Create this file in js within untitled
+
+- open -a "Sublime Text 2" Untitled
+	- Pass open a folder within a program.
+
+- ls -l
+	- If you want to see whats in your folders
+
+- rm main.js
+	- remove file
+
+FOR GITHUB (Terminal)
+- git init (point to root directory in project, must be pointed to working folder)
+	- Creates an invisible file (.git)
+
+- git status
+	- shows files within folder
+
+- git add .
+	- adds changes to github, comes in green and verifies that changes have been made.
+
+- git commit -m 'initial site file'
+	- verifies that you want to keep all the changes you made
+
+- git remote add origin https://github.com/elee378/IntegratedOne
+	- after the git is setup on your computer copy the repository link on Github (https://github.com/elee378/IntegratedOne)
+
+- git branch
+	- must be master branch. Things get pushed up and merged into the master.
+
+- git push origin master
+	- pushes work to the master.
+
+
+JAVASCRIPT
+Linking your js file
+<script src="js/main.js" defer></script>
+	- Defer means it will run the JS after everything else is loaded.
